@@ -189,7 +189,7 @@ export default defineComponent({
       }
     }
 
-    let solveOverflowTimeOut = 0;
+    let solveOverflowTimeOut : any = 0;
 
     //检查菜单是否超出屏幕
     function doCheckPos() {
